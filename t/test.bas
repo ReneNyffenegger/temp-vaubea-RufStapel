@@ -1,6 +1,9 @@
 option explicit
 
 sub main()
+
+    Rufstapel.enable "falle"
+
     f1
 end sub
 

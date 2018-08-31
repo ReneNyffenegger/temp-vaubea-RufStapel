@@ -7,5 +7,6 @@ sub loadThem()
   call importModuleOrClass        ("RufStapel", "C:\temp\temp-vaubea-RufStapel\o\RufStapel.cls")
 
   call loadOrReplaceModuleWithFile("test"     , "C:\temp\temp-vaubea-RufStapel\t\test.bas"     )
+  call loadOrReplaceModuleWithFile("todo"     , "C:\temp\temp-vaubea-RufStapel\t\todo.bas"     )
 
 end sub
